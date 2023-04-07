@@ -8,7 +8,7 @@ import "./index.css";
 
 const App = () => {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <main className="text-gray-400 bg-gradient-to-l from-gray-200 via-gray-400 to-gray-600">
       <Navbar />
       <About />
       <Projects />

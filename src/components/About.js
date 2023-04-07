@@ -14,9 +14,9 @@ export default function About() {
               <br className="hidden lg:inline-block " />
               <span className="text-5xl"> Jacob Baqleh.</span>
               <br className="hidden lg:inline-block " />
-              <span className="text-xl">I love to build amazing apps.</span>
+              <span className=" text-xl">I love to build amazing apps.</span>
             </h1>
-            <p className="mb-8 leading-relaxed">
+            <p className="text-gray-100 mb-8 leading-relaxed">
               As a frontend developer, I strive to create intuitive and visually
               appealing web applications that solve real-world problems
             </p>

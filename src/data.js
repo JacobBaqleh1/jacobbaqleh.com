@@ -5,26 +5,39 @@ import jsSvg from "./images/js.png";
 import reactSvg from "./images/physics.png";
 import githubSvg from "./images/github.png";
 import tailwindSvg from "./images/tailwindcss-icon.svg";
+import project2 from "./images/project2.png";
+import comingSoon from "./images/work-in-progress.png";
 
 export const projects = [
   {
+    title: "Sports Bar Mobile Website",
+    subtitle: "HTML and Bootstrap ",
+    description:
+      "Freelanced a mobile landing page for a small business using HTML and Bootstrap.",
+    image: barPhoto,
+    link: "https://thevalleyinnbar.com",
+    demoLink: "https://thevalleyinnbar.com",
+    githubLink: "https://github.com/JacobBaqleh1/ValleyInnBar",
+  },
+  {
     demoLink: "https://react-1u9fdw.stackblitz.io",
-    link: "https://www.google.com",
-    image:
-      "https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29mZmVlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    link: "https://react-1u9fdw.stackblitz.io",
+    image: project2,
     title: "Inspirational Quotes Generator",
     subtitle: "Javascript and Css",
     description:
-      "BUilt rem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius ",
+      "Fetched quotes from a database. Designed with CSS and programmed with Javascript ",
+    githubLink: "https://github.com/JacobBaqleh1/React-Quotes-Project",
   },
-
   {
-    title: "Bar mobile website",
-    subtitle: "HTML and Bootstrap ",
+    demoLink: "",
+    link: "",
+    image: comingSoon,
+    title: "M",
+    subtitle: "Javascript and Css",
     description:
-      "I freelanced a mobile landing page for a small business using HTML and Bootstrap. The website was optimized for mobile devices to provide visitors with key information about the business and create a visually appealing and user-friendly experience that could drive conversions.",
-    image: barPhoto,
-    link: "https://thevalleyinnbar.com",
+      "BUilt rem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius ",
+    githubLink: "https://github.com/JacobBaqleh1/React-Quotes-Project",
   },
 ];
 
