@@ -14,8 +14,9 @@ const App = () => {
 
       <About />
       <Projects />
-      <AboutMe />
+
       <Skills />
+      <AboutMe />
       <Contact />
     </main>
   );

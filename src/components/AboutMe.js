@@ -1,33 +1,27 @@
 import React from "react";
-
+import myselfie from "../images/myselfie.jpg";
 function AboutMe() {
   console.log("hi");
   return (
     <div className="bg-black  text-white py-10" id="aboutme">
       <div className="container overflow-hidden mx-auto">
-        <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white text-center">
+        <h1 className="sm:text-4xl  text-3xl font-medium title-font my-4 text-white text-center">
           {" "}
           About Me
         </h1>
-        <p className="float-left w-3/4 pr-8 text-xl">
-          Hello, my name is Jacob Baqleh and I'm passionate about creating
-          projects on the web. I'm a website developer, with 3 years of
-          experience in mostly frontend technologies. My journey as a web
-          creator started in high school, where i learned that there is are
-          careers creating cool things on the internet. Since then, I've been
-          developing and designing various projects, from simple web pages to
-          complex web applications. My goal is to create user-friendly and
-          visually appealing websites that provide a great user experience. If
-          you're interested in working with me, feel free to contact me through
-          my form. I'm always open to new opportunities and collaborations.
-          Thank you for visiting my portfolio and I hope you enjoy exploring my
-          projects!
+        <p className="float-left w-3/4 pr-8 text-xl text-gray-100 mb-8 leading-relaxed">
+          Hello, my name is Jacob and I am a self-taught website developer. I
+          have worked in sales for the past 4 years and now I am making the
+          switch to web development. Over the past 2 years, I have been focusing
+          on frontend development and building my skills in HTML, CSS, and
+          JavaScript. Recently, I have expanded my knowledge to full-stack
+          development and I am excited to learn more about back-end technologies
+          such as Node.js and databases. If you are interested in working with
+          me or simply want to connect, feel free to send me a message. I am
+          always open to new opportunities and I look forward to connecting with
+          you!
         </p>
-        <img
-          className="w-1/4 float-right"
-          src="https://plus.unsplash.com/premium_photo-1676550886096-bfc64aae1e2a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-          alt=""
-        />
+        <img className="w-1/4 float-right rounded-full" src={myselfie} alt="" />
       </div>
     </div>
   );
