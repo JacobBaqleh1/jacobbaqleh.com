@@ -11,9 +11,9 @@ import comingSoon from "./images/work-in-progress.png";
 export const projects = [
   {
     title: "Sports Bar Mobile Website",
-    subtitle: "HTML and Bootstrap ",
+    subtitle: "React and TailwindCSS ",
     description:
-      "Freelanced a mobile landing page for a small business using HTML and Bootstrap.",
+      "Website I made for small business in my town. Styled and coded for a simplistic and easy experience for people",
     image: barPhoto,
     link: "https://thevalleyinnbar.com",
     demoLink: "https://thevalleyinnbar.com",
@@ -33,11 +33,11 @@ export const projects = [
     demoLink: "",
     link: "",
     image: comingSoon,
-    title: "M",
-    subtitle: "Javascript and Css",
+    title: "E-commerce Webiste",
+    subtitle: "Remix and TailwindCSS",
     description:
-      "BUilt rem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius ",
-    githubLink: "https://github.com/JacobBaqleh1/React-Quotes-Project",
+      "This multi page web app built with Remix(a fullstack framework) has amazing app runtime performance. Styles using Tailwind.   ",
+    githubLink: "",
   },
 ];
 
