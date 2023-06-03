@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import linkedIn from "../images/linkedin.png";
 import github from "../images/github.png";
 import twitter from "../images/twitter.png";
+import selfie from "../images/myselfie.jpg";
 
 export default function About() {
   return (
@@ -61,9 +62,9 @@ export default function About() {
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
-              className="object-cover object-center rounded"
+              className="object-cover object-center  rounded-full md:w-[20rem] h-[20rem]"
               alt="hero"
-              src="https://images.unsplash.com/photo-1496016943515-7d33598c11e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGhhY2tlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+              src={selfie}
             />
           </div>
         </div>
